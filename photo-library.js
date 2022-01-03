@@ -1,4 +1,4 @@
-class Foto {
+class Photo {
 
     constructor() {
 
@@ -10,7 +10,7 @@ class Foto {
         this.operationEditedCanvas = document.createElement("canvas");
         this.operationEditedCtx = this.operationEditedCanvas.getContext("2d");
 
-        this.fileInput = document.getElementById("foto-file");
+        this.fileInput = document.getElementById("photo-file");
         this.fileInput.addEventListener("change", function(event){
             root.loadImage();
         })
@@ -70,7 +70,7 @@ class Foto {
 
     loadImage() {
 
-        var input = document.getElementById("foto-file");
+        var input = document.getElementById("photo-file");
         this.selectedFileName = input.files.item(0).name
         var reader = new FileReader();
         var root = this;
@@ -385,7 +385,7 @@ class Foto {
      previewImage(canvas, firstLoad, recreateImageFlag) {
 
         var root = this;
-        this.previewImageElement = document.getElementById("foto-image");
+        this.previewImageElement = document.getElementById("photo-image");
         this.previewImageElement.setAttribute('draggable', false);
         
         var root = this;

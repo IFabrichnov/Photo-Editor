@@ -12,7 +12,7 @@ body {
     position: absolute;
     width: 50%;
     height: 50%;
-    top: 41%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -43,7 +43,7 @@ body {
 .buttons-section {
     position: fixed;
     margin: auto;
-    top: 67%;
+    top: 75%;
     left: 25%;
     color: white;
     width: 50%;
